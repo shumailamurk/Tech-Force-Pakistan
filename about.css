@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navie{
+  width: 100%;
+  height: 67px;
+  background-color: black;
+}
+.navie input{
+    width: 700px;
+    height: 60px;
+    border-radius:30px;
+    padding: 20px;
+    position: absolute;
+   left: 350px;
+   top: 4px;
+}
+.navie ::placeholder{
+    font-size: 20px;
+}
+.aboutconatiner{
+  width: 300px;
+  height: 480px;
+
+}
+.aboutconatiner h1{
+    text-align: center;
+}
+.aboutheading{
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(51, 135, 192);
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    opacity: 0.7;
+    color: black;
+}
+.aboutcontent img{
+    width: 500px;
+    height: 500px;
+   position: absolute;
+   top: 120px;
+   left: 400px;
+    opacity: 0.6;
+}
+.aboutcontent p{
+    font-size: 20px;
+    position: absolute;
+    top: 240px;
+    line-height: 20px;
+    text-align: center;
+}
+.mission-container{
+    width: 100%;
+    height: 300px;
+    background-color: #73a9db;
+   position: absolute;
+   top: 600px;
+}
+.missionp{
+    text-align: center;
+    font-size: 18px;
+   position: absolute;
+  margin-top: 60px;
+  font-weight: bold;
+  line-height: 25px;
+  color: rgb(16, 23, 29);
+}
+.bigimg img{
+    width: 100%;
+    height: 560px;
+   margin-top: 330px;
+}
+.about-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.about-container h1 {
+    font-size: 2.5em;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.about-container p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 0; /* Remove gap */
+}
+
+.box {
+    width: 24%; /* Adjusts the width to make them inline without space */
+    height: 300px;
+    padding: 20px;
+    color: #fff;
+    font-size: 1.1em;
+    font-weight: bold;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.icon {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+#box1 {
+    background-color: aquamarine;
+}
+
+#box2 {
+    background-color: coral;
+}
+
+#box3 {
+    background-color: lightblue;
+}
+
+#box4 {
+    background-color: lightgreen;
+}
